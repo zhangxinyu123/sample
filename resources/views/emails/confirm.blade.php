@@ -2,20 +2,20 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>×¢²áÈ·ÈÏÁ´½Ó</title>
+    <title>æ³¨å†Œç¡®è®¤é“¾æŽ¥</title>
 </head>
 <body>
-<h1>¸ÐÐ»ÄúÔÚ Sample ÍøÕ¾½øÐÐ×¢²á£¡</h1>
+<h1>æ„Ÿè°¢æ‚¨åœ¨ Sample ç½‘ç«™è¿›è¡Œæ³¨å†Œï¼</h1>
 
 <p>
-    Çëµã»÷ÏÂÃæµÄÁ´½ÓÍê³É×¢²á£º
+    è¯·ç‚¹å‡»ä¸‹é¢çš„é“¾æŽ¥å®Œæˆæ³¨å†Œï¼š
     <a href="{{ route('confirm_email', $user->activation_token) }}">
         {{ route('confirm_email', $user->activation_token) }}
     </a>
 </p>
 
 <p>
-    Èç¹ûÕâ²»ÊÇÄú±¾ÈËµÄ²Ù×÷£¬ÇëºöÂÔ´ËÓÊ¼þ¡£
+    å¦‚æžœè¿™ä¸æ˜¯æ‚¨æœ¬äººçš„æ“ä½œï¼Œè¯·å¿½ç•¥æ­¤é‚®ä»¶ã€‚
 </p>
 </body>
 </html>

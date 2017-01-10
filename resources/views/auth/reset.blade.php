@@ -1,12 +1,12 @@
 @extends('layouts.default')
-@section('title', '¸üĞÂÃÜÂë')
+@section('title', 'æ›´æ–°å¯†ç ')
 
 @section('content')
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">¸üĞÂÃÜÂë</div>
+                    <div class="panel-heading">æ›´æ–°å¯†ç </div>
                     <div class="panel-body">
                         @include('shared.errors')
 
@@ -15,21 +15,21 @@
                             <input type="hidden" name="token" value="{{ $token }}">
 
                             <div class="form-group">
-                                <label class="col-md-4 control-label">ÓÊÏäµØÖ·£º</label>
+                                <label class="col-md-4 control-label">é‚®ç®±åœ°å€ï¼š</label>
                                 <div class="col-md-6">
                                     <input type="email" class="form-control" name="email" value="{{ old('email') }}">
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label class="col-md-4 control-label">ÃÜÂë£º</label>
+                                <label class="col-md-4 control-label">å¯†ç ï¼š</label>
                                 <div class="col-md-6">
                                     <input type="password" class="form-control" name="password">
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label class="col-md-4 control-label">È·ÈÏÃÜÂë£º</label>
+                                <label class="col-md-4 control-label">ç¡®è®¤å¯†ç ï¼š</label>
                                 <div class="col-md-6">
                                     <input type="password" class="form-control" name="password_confirmation">
                                 </div>
@@ -38,7 +38,7 @@
                             <div class="form-group">
                                 <div class="col-md-6 col-md-offset-4">
                                     <button type="submit" class="btn btn-primary">
-                                        ¸üĞÂÃÜÂë
+                                        æ›´æ–°å¯†ç 
                                     </button>
                                 </div>
                             </div>
